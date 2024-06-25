@@ -1,0 +1,62 @@
+N_loc = 1000000, irank = 0 
+Problem size N = 1000000, I = 3.141593e+00, error = 1.807443e-13
+N_loc = 500000, irank = 0 
+N_loc = 500000, irank = 1 
+Problem size N = 1000000, I = 3.141593e+00, error = 1.807443e-13
+Problem size N = 1000000, I = 1.287001e+00, error = 1.854592e+00
+N_loc = 250000, irank = 0 
+N_loc = 250000, irank = 1 
+N_loc = 250000, irank = 2 
+N_loc = 250000, irank = 3 
+Problem size N = 1000000, I = 5.675874e-01, error = 2.574005e+00
+Problem size N = 1000000, I = 3.070871e-01, error = 2.834506e+00
+Problem size N = 1000000, I = 3.141593e+00, error = 1.807443e-13
+Problem size N = 1000000, I = 1.287001e+00, error = 1.854592e+00
+N_loc = 125000, irank = 0 
+N_loc = 125000, irank = 1 
+N_loc = 125000, irank = 2 
+N_loc = 125000, irank = 3 
+N_loc = 125000, irank = 4 
+N_loc = 125000, irank = 5 
+N_loc = 125000, irank = 6 
+N_loc = 125000, irank = 7 
+Problem size N = 1000000, I = 3.141593e+00, error = 1.807443e-13
+Problem size N = 1000000, I = 1.287001e+00, error = 1.854592e+00
+Problem size N = 1000000, I = 5.675874e-01, error = 2.574005e+00
+Problem size N = 1000000, I = 3.070871e-01, error = 2.834506e+00
+Problem size N = 1000000, I = 1.903321e-01, error = 2.951261e+00
+Problem size N = 1000000, I = 1.289873e-01, error = 3.012605e+00
+Problem size N = 1000000, I = 9.300632e-02, error = 3.048586e+00
+Problem size N = 1000000, I = 7.016811e-02, error = 3.071425e+00
+N_loc = 62500, irank = 0 
+N_loc = 62500, irank = 1 
+N_loc = 62500, irank = 3 
+N_loc = 62500, irank = 4 
+N_loc = 62500, irank = 5 
+N_loc = 62500, irank = 6 
+N_loc = 62500, irank = 7 
+N_loc = 62500, irank = 8 
+N_loc = 62500, irank = 9 
+N_loc = 62500, irank = 10 
+N_loc = 62500, irank = 11 
+N_loc = 62500, irank = 12 
+N_loc = 62500, irank = 13 
+N_loc = 62500, irank = 14 
+N_loc = 62500, irank = 15 
+N_loc = 62500, irank = 2 
+Problem size N = 1000000, I = 3.070871e-01, error = 2.834506e+00
+Problem size N = 1000000, I = 9.300632e-02, error = 3.048586e+00
+Problem size N = 1000000, I = 7.016811e-02, error = 3.071425e+00
+Problem size N = 1000000, I = 5.479099e-02, error = 3.086802e+00
+Problem size N = 1000000, I = 4.395419e-02, error = 3.097638e+00
+Problem size N = 1000000, I = 2.185766e-02, error = 3.119735e+00
+Problem size N = 1000000, I = 3.141593e+00, error = 1.807443e-13
+Problem size N = 1000000, I = 1.287001e+00, error = 1.854592e+00
+Problem size N = 1000000, I = 1.903321e-01, error = 2.951261e+00
+Problem size N = 1000000, I = 1.289873e-01, error = 3.012605e+00
+Problem size N = 1000000, I = 3.603499e-02, error = 3.105558e+00
+Problem size N = 1000000, I = 3.007456e-02, error = 3.111518e+00
+Problem size N = 1000000, I = 2.547731e-02, error = 3.116115e+00
+Problem size N = 1000000, I = 1.895717e-02, error = 3.122635e+00
+Problem size N = 1000000, I = 1.659738e-02, error = 3.124995e+00
+Problem size N = 1000000, I = 5.675874e-01, error = 2.574005e+00

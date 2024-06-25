@@ -1,0 +1,1148 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<!-- saved from url=(0082)https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="Author" content="Vern Lindberg">
+<meta name="GENERATOR" content="Mozilla/4.51 (Macintosh; I; PPC) 
+[Netscape]">
+<title>Uncertainties and Error Propagation</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<center>
+  <h1>&nbsp; </h1>
+</center>
+<center>
+  <h1><a name="top"></a>Uncertainties and Error Propagation</h1>
+  <h1>Part I of a manual on</h1>
+  <h1>Uncertainties, Graphing, and the Vernier Caliper</h1>
+</center>
+<center>
+  <table width="40%" border="0">
+    <tbody><tr>
+      <td><b>Copyright July 1, 2000</b></td>
+      <td>
+        <div align="right"><b>Vern Lindberg</b></div>
+      </td>
+    </tr>
+  </tbody></table>
+  <h2 align="left">Contents</h2>
+</center>
+<p><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#systematic">1. Systematic versus 
+Random Errors 
+  </a><br>
+  2. Determining Random Errors (a) <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#ile">Instrument 
+  Limit of Error, least count</a>&nbsp; (b) <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#estimate">Estimation</a>&nbsp; 
+  (c)&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#estimate">Average 
+Deviation</a> <br>
+  &nbsp;&nbsp;&nbsp; (d)&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#conflicts">Conflicts</a> 
+  (e) <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#stdError">Standard Error in the 
+Mean </a><br>
+  3. <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#range">What does uncertainty tell 
+me?&nbsp; 
+  Range of possible values</a> <br>
+  4.&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#relabs">Relative and Absolute 
+error</a> 
+  <br>
+  5.&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#propagation">Propagation of errors</a>&nbsp; (a) <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#addsub">add/subtract&nbsp;</a> 
+  (b)&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#muldiv">multiply/divide</a>&nbsp; (c) <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#powers">powers</a>&nbsp; 
+  (d) <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#mixtures">mixtures of +-*/</a> (e) <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#functions">other 
+  functions</a> <br>
+  6.&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#rounding">Rounding</a> answers properly <br>
+  7.&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#sigfig">Significant figures</a> <br>
+  8.&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#problems">Problems to try</a> <br>
+  9.&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#glossary">Glossary</a> of terms (all terms that are 
+bold 
+  face and underlined) </p>
+<table width="70%" border="1">
+  <tbody><tr> 
+    <td width="59%"> 
+      <h3><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/graphing/graphingpart1.html">Part II 
+Graphing</a></h3>
+    </td>
+    <td width="41%"> 
+      <h3 align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/VernierCaliper/caliper.html">Part III 
+The 
+        Vernier Caliper</a></h3>
+    </td>
+  </tr>
+</tbody></table>
+<table width="60%" border="0">
+  <tbody><tr bgcolor="#FFff99"> 
+    <td>In this manual there will be problems for you to try. They are 
+highlighted 
+      in yellow, and have answers.</td>
+  </tr>
+  <tr bgcolor="#ccFFcc"> 
+    <td>There are also examples highlighted in green.</td>
+  </tr>
+</tbody></table>
+<p>&nbsp; 
+</p><blockquote>
+  <h2> <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#systematic">1. Systematic and 
+random errors.</a></h2>
+</blockquote>
+<div align="right"></div>
+<blockquote> 
+  <h2><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#systematic"> 2. Determining random 
+errors.</a></h2>
+  <h2><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#range"> 3. What is the range of 
+possible 
+    values? </a></h2>
+  <center>
+  </center>
+  <p></p>
+  <h2><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart1.html#relabs"> 4. Relative and Absolute 
+Errors</a></h2>
+  <h2> <a name="propagation"></a>5. <u>Propagation of Errors</u>, Basic 
+Rules</h2>
+  <p>Suppose two measured quantities x and y have uncertainties, <font face="symbol">D</font>x 
+    and <font face="symbol">D</font>y, determined by procedures described 
+in previous 
+    sections: we would report (x ± <font face="symbol">D</font>x), 
+and 
+    (y ± <font face="symbol">D</font>y). From the measured 
+quantities a 
+    new quantity, z, is calculated from x and y. What is the uncertainty, 
+<font face="symbol">D</font>z, 
+    in z? For the purposes of this course we will use a simplified 
+version of 
+    the proper statistical treatment. The formulas for a full statistical 
+treatment 
+    (using standard deviations) will also be given. The guiding principle 
+in all 
+    cases is to consider the most pessimistic situation. Full 
+explanations are 
+    covered in statistics courses. </p>
+  <p>The examples included in this section also show the proper rounding 
+of answers, 
+    which is covered in more detail in Section 6.&nbsp; The examples use 
+the propagation 
+    of errors <u>using average deviations</u>. </p>
+  <h3> <a name="addsub"></a>(a) Addition and Subtraction: z = x + 
+y&nbsp;&nbsp;&nbsp;&nbsp; 
+    or&nbsp;&nbsp;&nbsp; z = x - y</h3>
+  <blockquote> 
+    <p>&nbsp; </p>
+  </blockquote>
+</blockquote>
+<ul>
+  <table border="" cols="1" width="95%">
+    <tbody><tr> 
+      <td><b>Derivation</b>: We will assume that the uncertainties are 
+arranged 
+        so as to make z as far from its true value as possible. 
+        <p>Average deviations&nbsp; <font face="symbol">D</font>z = 
+|<font face="symbol">D</font>x| 
+          + |<font face="symbol">D</font>y| in both cases 
+        </p><p>With more than two numbers added or subtracted we continue to 
+add the 
+          uncertainties. 
+      </p></td>
+    </tr>
+  </tbody></table>
+  <blockquote> 
+    <p><br>
+      &nbsp; </p>
+  </blockquote>
+  <center>
+    <table border="" width="90%">
+      <tbody><tr> 
+        <td align="CENTER" colspan="2">Using simpler average errors</td>
+        <td align="CENTER" colspan="2">Using standard deviations</td>
+      </tr>
+      <tr> 
+        <td><img src="./Uncertainties and Error Propagation_files/absadd.gif" border="0" height="19" width="195"></td>
+        <td>Eq. 1a</td>
+        <td><img src="./Uncertainties and Error Propagation_files/stdadd.gif" border="0" height="29" width="179"></td>
+        <td>Eq. 1b</td>
+      </tr>
+    </tbody></table>
+    <p>&nbsp;</p>
+    <table width="80%" border="0">
+      <tbody><tr bgcolor="#CCFFCC"> 
+        <td> 
+          <p align="left"> <b>Example</b>:&nbsp; w = (4.52 ± 0.02) 
+cm, 
+            x = ( 2.0 ± 0.2) cm, y = (3.0 ± 0.6) cm. Find z 
+= x 
+            + y - w and its uncertainty.</p>
+          <p align="left">z = x + y - w = 2.0 + 3.0 - 4.5 = 0.5 cm</p>
+          <table border="" width="90%">
+            <tbody><tr> 
+              <td><font face="symbol">D</font>z = <font face="symbol">D</font>x 
+                + <font face="symbol">D</font>y + <font face="symbol">D</font>w 
+                = 0.2 + 0.6 + 0.02 = 0.82&nbsp; rounding to&nbsp; 0.8 cm 
+
+                <p>So z = (0.5 ± 0.8) cm 
+              </p></td>
+              <td> 
+                <p>Solution with standard deviations, Eq. 1b, <font face="symbol">D</font>z 
+                  = 0.633 cm<br>
+                  z = (0.5 ± 0.6) cm</p>
+              </td>
+            </tr>
+          </tbody></table>
+          <p align="left">Notice that we round the uncertainty to one 
+significant 
+            figure and round the answer to match.</p>
+        </td>
+      </tr>
+    </tbody></table>
+    <p align="left">&nbsp;</p>
+  </center>
+  <center>
+  </center>
+  <center>
+    <table border="" cols="1" width="95%">
+      <tbody><tr> 
+        <td>For <b>multiplication by an exact number</b>, multiply the 
+uncertainty 
+          by the same exact number. </td>
+      </tr>
+    </tbody></table>
+  </center>
+  <ul>
+    <blockquote> 
+      <blockquote> 
+        <p>&nbsp; <br>
+        </p>
+        <table width="80%" border="0">
+          <tbody><tr bgcolor="#CCFFCC"> 
+            <td> 
+              <p><b>Example</b>:&nbsp; The radius of a circle is x = (3.0 
+± 
+                0.2) cm. Find the circumference and its uncertainty.</p>
+              <blockquote> 
+                <p>C = 2 <font face="Symbol">p</font> x = 18.850 cm </p>
+                <p>&nbsp; <br>
+                  <font face="symbol">D</font>C = 2 <font face="Symbol">p</font> 
+                  <font face="symbol">D</font>x = 1.257 cm (The factors 
+of 2 and 
+                  <font face="Symbol">p</font> are exact) </p>
+                <p>C = (18.8 ± 1.3) cm </p>
+                <p>We round the uncertainty to two figures since it 
+starts with 
+                  a 1, and round the answer to match.</p>
+              </blockquote>
+            </td>
+          </tr>
+        </tbody></table>
+        <p>&nbsp;</p>
+        <table width="80%" border="0">
+          <tbody><tr bgcolor="#CCFFCC"> 
+            <td> 
+              <p><b>Example</b>:&nbsp; x = (2.0 ± 0.2) cm, y = 
+(3.0 ± 
+                0.6) cm. Find z = x - 2y and its uncertainty.<br>
+                &nbsp; </p>
+              <table border="" width="80%">
+                <tbody><tr> 
+                  <td>z = x - 2y = 2.0 - 2(3.0) = -4.0 cm 
+                    <p><font face="symbol">D</font>z = <font face="symbol">D</font>x 
+                      + 2 <font face="symbol">D</font>y = 0.2 + 1.2 = 1.4 
+cm 
+                    </p><p>So&nbsp; z = (-4.0 ± 1.4) cm. 
+                  </p></td>
+                  <td> 
+                    <p>&nbsp;</p>
+                    <p>Using Eq 1b, z = (-4.0 ± 0.9) cm.</p>
+                  </td>
+                </tr>
+              </tbody></table>
+              <p>The 0 after the decimal point in 4.0 is significant and 
+must 
+                be written in the answer. The uncertainty in this case 
+starts 
+                with a 1 and is kept to two significant figures. (More on 
+rounding 
+                in Section 7.) </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <p>&nbsp;</p>
+      </blockquote>
+    </blockquote>
+    <center>
+    </center>
+  </ul>
+</ul>
+<blockquote> 
+  <blockquote> 
+    <p> 
+      </p><center>
+      </center>
+    <p></p>
+  </blockquote>
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  <h3> <a name="muldiv"></a>(b) Multiplication and Division: z = x 
+y&nbsp;&nbsp;&nbsp; 
+    or&nbsp;&nbsp;&nbsp; z = x/y</h3>
+  <blockquote> 
+    <p>&nbsp; </p>
+  </blockquote>
+</blockquote>
+<ul>
+  <center>
+    <table border="" cols="1" width="95%">
+      <tbody><tr> 
+        <td><b>Derivation</b>: We can derive the relation for 
+multiplication easily. 
+          Take the largest values for x and y, that is 
+          <p>z + <font face="symbol">D</font>z = (x + <font face="symbol">D</font>x)(y 
+            + <font face="symbol">D</font>y) = xy + x <font face="symbol">D</font>y 
+            + y <font face="symbol">D</font>x + <font face="symbol">D</font>x 
+            <font face="symbol">D</font>y 
+          </p><p>Usually <font face="symbol">D</font>x &lt;&lt; x and <font face="symbol">D</font>y 
+            &lt;&lt; y so that the last term is much smaller than the 
+other terms 
+            and can be neglected. Since z = xy, 
+          </p><p><font face="symbol">D</font>z = y <font face="symbol">D</font>x + 
+            x <font face="symbol">D</font>y 
+          </p><p>which we write more compactly by forming the relative error, 
+that 
+            is the ratio of <font face="symbol">D</font>z/z, namely 
+          </p><blockquote> 
+            <blockquote> 
+              <blockquote><img src="./Uncertainties and Error Propagation_files/absmult.gif" border="0" height="45" width="132"></blockquote>
+            </blockquote>
+          </blockquote>
+        </td>
+      </tr>
+    </tbody></table>
+  </center>
+  <blockquote> 
+    <p> 
+      </p><center>
+      </center>
+    <p></p>
+    <p>The same rule holds for multiplication, division, or combinations, 
+namely 
+      add all the relative errors to get the relative error in the 
+result. <br>
+      &nbsp; </p>
+  </blockquote>
+  <center>
+    <table border="" width="90%">
+      <tbody><tr> 
+        <td align="CENTER" colspan="2">Using simpler average errors</td>
+        <td align="CENTER" colspan="2">Using standard deviations</td>
+      </tr>
+      <tr> 
+        <td><img src="./Uncertainties and Error Propagation_files/absmult.gif" border="0" height="45" width="132"></td>
+        <td>Eq. 2a</td>
+        <td><img src="./Uncertainties and Error Propagation_files/stdmult.gif" border="0" height="57" width="193"></td>
+        <td>Eq.2b</td>
+      </tr>
+    </tbody></table>
+  </center>
+  <blockquote> 
+    <p> 
+    </p><center>
+      <p>&nbsp;</p>
+      <table width="80%" border="0">
+        <tbody><tr bgcolor="#CCFFCC"> 
+          <td> 
+            <p><b>Example</b>:&nbsp; w = (4.52 ± 0.02) cm, x = 
+(2.0 ± 
+              0.2) cm.&nbsp; Find z = w x and its uncertainty. <br>
+            </p>
+            <blockquote> 
+              <p>z = w x = (4.52) (2.0) = 9.04 <sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup></p>
+              <table border="" width="75%">
+                <tbody><tr> 
+                  <td width="70%"><img src="./Uncertainties and Error Propagation_files/eg904.gif" border="0" height="43" width="301"> 
+                    <br>
+                    So <font face="symbol">D</font>z = 0.1044 (9.04 
+<sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup>) 
+                    = 0.944&nbsp; which we round to&nbsp; 0.9 <sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup>, 
+                    <br>
+                    z = (9.0 ± 0.9) <sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup>.</td>
+                  <td>Using Eq. 2b we get&nbsp; <br>
+                    <font face="symbol">D</font>z = 0.905 <sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup> 
+                    and&nbsp; <br>
+                    z = (9.0 ± 0.9)<sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup>.</td>
+                </tr>
+              </tbody></table>
+              <p>The uncertainty is rounded to one significant figure and 
+the 
+                result is rounded to match. We write 9.0 <sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup> 
+                rather than 9<sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21" align="absbottom"></sup> 
+                since the 0 is significant. </p>
+            </blockquote>
+          </td>
+        </tr>
+      </tbody></table>
+      <p align="left">&nbsp;</p>
+      <table width="80%" border="0">
+        <tbody><tr bgcolor="#CCFFCC"> 
+          <td> 
+            <p><b>Example</b>:&nbsp; x = ( 2.0 ± 0.2) cm, y = (3.0 
+± 
+              0.6) sec Find z = x/y.</p>
+            <table border="" width="85%">
+              <tbody><tr> 
+                <td> 
+                  <ul>
+                    z = 2.0/3.0 = 0.6667 cm/s. 
+                  </ul>
+                  <ul>
+                    So <font face="symbol">D</font>z = 0.3 (0.6667 
+cm/sec) = 0.2 
+                    cm/sec <br>
+                    z = (0.7 ± 0.2) cm/sec 
+                  </ul>
+                </td>
+                <td>Using Eq. 2b we get&nbsp; z = (0.67 ± 0.15) 
+cm/sec</td>
+              </tr>
+            </tbody></table>
+            <p>Note that in this case we round off our answer to have no 
+more 
+              decimal places than our uncertainty.</p>
+          </td>
+        </tr>
+      </tbody></table>
+    </center>
+    <p></p>
+  </blockquote>
+</ul>
+<blockquote> 
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  <h3> <a name="powers"></a>(c) Products of powers: <sup><img src="./Uncertainties and Error Propagation_files/powerprod.gif" width="73" height="26" align="absbottom"></sup>.</h3>
+  <blockquote> 
+    <p>The results in this case are <br>
+      &nbsp; </p>
+  </blockquote>
+</blockquote>
+<blockquote> 
+  <center>
+    <table border="" width="90%">
+      <tbody><tr> 
+        <td align="CENTER" colspan="2">Using simpler average errors</td>
+        <td align="CENTER" colspan="2">Using standard deviations</td>
+      </tr>
+      <tr> 
+        <td><img src="./Uncertainties and Error Propagation_files/abspower.gif" border="0" height="45" width="170"></td>
+        <td>Eq. 3a</td>
+        <td><img src="./Uncertainties and Error Propagation_files/stdpower.gif" border="0" height="57" width="226"></td>
+        <td>Eq.3b</td>
+      </tr>
+    </tbody></table>
+  </center>
+</blockquote>
+<ul>
+  <ul>
+    <blockquote> 
+      <p>&nbsp;</p>
+      <table width="80%" border="0" bgcolor="#CCFFCC">
+        <tbody><tr> 
+          <td> 
+            <p><b>Example</b>:&nbsp; w = (4.52 ± 0.02) cm, A = 
+(2.0 ± 
+              0.2)<img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21">, 
+              y = (3.0 ± 0.6) cm. Find<img src="./Uncertainties and Error Propagation_files/powereg.gif" width="109" height="26" align="absbottom">. 
+            </p>
+            <table border="" width="97%">
+              <tbody><tr> 
+                <td> 
+                  <ul>
+                    <img src="./Uncertainties and Error Propagation_files/egpower.gif" border="0" height="50" width="314"> 
+                    <br>
+                    <img src="./Uncertainties and Error Propagation_files/egpower2.gif" border="0" height="47" width="406"> 
+                    <p>The second relative error, (<font face="symbol">D</font>y/y), 
+                      is multiplied by 2 because the power of y is 
+2.&nbsp; <br>
+                      The third relative error, (<font face="symbol">D</font>A/A), 
+                      is multiplied by 0.5 since a square root is a power 
+of one 
+                      half. 
+                    </p><p>So <font face="symbol">D</font>z = 0.49 (28.638 
+<img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21">) 
+                      = 14.03 <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"> 
+                      which we round to 14 <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"> 
+                  </p></ul>
+                  <ul>
+                    z = (29 ± 14) <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"> 
+                  </ul>
+                </td>
+                <td>Using Eq. 3b, <br>
+                  z=(29 ± 12) <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"></td>
+              </tr>
+            </tbody></table>
+            <p>Because the uncertainty begins with a 1, we keep two 
+significant 
+              figures and round the answer to match. </p>
+          </td>
+        </tr>
+      </tbody></table>
+    </blockquote>
+  </ul>
+</ul>
+<blockquote> 
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  <h3> <a name="mixtures"></a>(d)&nbsp; Mixtures of multiplication, 
+division, 
+    addition, subtraction, and powers.</h3>
+  <blockquote> 
+    <p>If z is a function which involves several terms added or 
+subtracted we 
+      must apply the above rules carefully.&nbsp; This is best explained 
+by means 
+      of an example.</p>
+    <blockquote> 
+      <table width="80%" border="0" bgcolor="#CCFFCC">
+        <tbody><tr> 
+          <td> 
+            <p><b>Example</b>:&nbsp; w = (4.52 ± 0.02) cm, x = 
+(2.0 ± 
+              0.2) cm, y = (3.0 ± 0.6) cm. Find z = w x +y^2</p>
+            <blockquote> 
+              <blockquote> 
+                <blockquote> 
+                  <p>z = wx +y^<sup>2 </sup>= 18.0 <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"> 
+                  </p>
+                </blockquote>
+              </blockquote>
+              <table border="" width="104%">
+                <tbody><tr> 
+                  <td>First we compute v = wx as in the example in (b) to 
+get 
+                    v = (9.0 ± 0.9) <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21">. 
+                    <br>
+                    Next we compute <br>
+                    <img src="./Uncertainties and Error Propagation_files/egysq.gif" border="0" height="51" width="243"> 
+                    <br>
+                    <img src="./Uncertainties and Error Propagation_files/egysq2.gif" border="0" height="24" width="260"> 
+                    <br>
+                    Finally, we compute <font face="symbol">D</font>z = 
+<font face="symbol">D</font>v 
+                    + <font face="symbol">D</font>(y^<sup>2</sup>) = 0.9 
++ 3.6 
+                    = 4.5 <sup><img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"> 
+                    </sup>rounding to 4 <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"> 
+                    <br>
+                    Hence z = (18 ± 4) <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21">.</td>
+                  <td>We have v = wx = (9.0 ± 0.9) cm.&nbsp; <br>
+                    The calculation of the uncertainty in <sup><img src="./Uncertainties and Error Propagation_files/ysq.gif" width="21" height="25" align="absbottom"></sup> 
+                    is the same as that shown to the left. Then from Eq. 
+1b&nbsp; 
+                    <p><font face="symbol">D</font>z =&nbsp; 3.7 <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21"> 
+                      <br>
+                      z = (18 ± 4) <img src="./Uncertainties and Error Propagation_files/cmsq.gif" width="36" height="21">. 
+                      <br>
+                      &nbsp; 
+                  </p></td>
+                </tr>
+              </tbody></table>
+            </blockquote>
+          </td>
+        </tr>
+      </tbody></table>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<ul>
+  <ul>
+  </ul>
+</ul>
+<blockquote> 
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  <h3> <a name="functions"></a>(e) Other Functions: e.g.. z = sin x. The 
+simple 
+    approach.</h3>
+  <blockquote> 
+    <p> For other functions of our variables such as sin(x) we will not 
+give formulae. 
+      However you can estimate the error in z = sin(x) as being the 
+difference 
+      between the largest possible value and the average value. and use 
+similar 
+      techniques for other functions. <br>
+      Thus </p>
+    <blockquote> 
+      <p><font face="symbol">D</font>(sin x) = sin(x + <font face="symbol">D</font>x) 
+        - sin(x) </p>
+      <table width="80%" border="0" bgcolor="#CCFFCC">
+        <tbody><tr> 
+          <td> 
+            <p><b>Example</b>:&nbsp; Consider S = x cos (<font face="symbol">q</font>) 
+              for x = (2.0 ± 0.2) cm, <font face="symbol">q</font> 
+= 53 
+              ± 2 °. Find S and its uncertainty.</p>
+            <p>S = (2.0 cm) cos 53° = 1.204 cm </p>
+            <p>To get the largest possible value of S we would make x 
+larger, 
+              (x + <font face="symbol">D</font>x) = 2.2 cm, and <font face="symbol">q</font> 
+              smaller, (<font face="symbol">q</font> - <font face="symbol">Dq</font>) 
+              = 51°. The largest value of S, namely (S + <font face="symbol">D</font>S), 
+              is (S + <font face="symbol">D</font>S) = (2.2 cm) cos 
+51° = 
+              1.385 cm. </p>
+            <p>The difference between these numbers is <font face="symbol">D</font>S 
+              = 1.385 - 1.204 = 0.181 cm&nbsp; which we round to 0.18 cm. 
+</p>
+            <p>Then S = (1.20 ± 0.18) cm.</p>
+          </td>
+        </tr>
+      </tbody></table>
+      <blockquote> 
+        <p>&nbsp; </p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  <h3> <b><font color="#000000"><a name="functions2"></a>(f) Other 
+Functions: 
+    Getting formulas using partial derivatives</font></b></h3>
+  <blockquote> 
+    <p><font color="#000000">The general method of getting formulas for 
+propagating 
+      errors involves the total differential of a function. Suppose that 
+z = f(w, 
+      x, y, ...) where the variables w, x, y, etc. must be <b>independent 
+variables</b>!</font> 
+    </p>
+    <p><font color="#000000">The total differential is then</font> <br>
+      <img src="./Uncertainties and Error Propagation_files/differential.gif" border="0" height="49" width="278"> 
+      <br>
+      <font color="#000000">We treat the dw = </font><font face="symbol">D</font>w 
+      <font color="#000000">as the error in w, and likewise for the other 
+differentials, 
+      dz, dx, dy, etc. The numerical values of the partial derivatives 
+are evaluated 
+      by using the average values of w, x, y, etc. The general results 
+are</font> 
+      <br>
+      &nbsp; </p>
+  </blockquote>
+</blockquote>
+<ul>
+  <center>
+    <table border="" width="90%">
+      <tbody><tr> 
+        <td align="CENTER" colspan="2">Using simpler average errors</td>
+      </tr>
+      <tr> 
+        <td><img src="./Uncertainties and Error Propagation_files/avedifferential.gif" border="0" height="49" width="256"></td>
+        <td>Eq. 4a.</td>
+      </tr>
+      <tr> 
+        <td colspan="2"> 
+          <center>
+            Using standard deviations 
+          </center>
+        </td>
+      </tr>
+      <tr> 
+        <td><img src="./Uncertainties and Error Propagation_files/stddifferential.gif" border="0" height="54" width="349"></td>
+        <td>Eq. 4b</td>
+      </tr>
+    </tbody></table>
+    <p align="left">&nbsp;</p>
+    <table width="80%" border="0" bgcolor="#CCFFCC">
+      <tbody><tr> 
+        <td> 
+          <p><b>Example</b>: Consider S = x cos (<font face="symbol">q</font>) 
+            for x = (2.0 ± 0.2) cm, <font face="symbol">q</font> = 
+(53 
+            ± 2) °= (0.9250 ± 0.0035) rad. Find S and 
+its uncertainty. 
+            Note: <b>the uncertainty in angle must be in radians!</b></p>
+
+          <p>S = 2.0 cm cos 53° = 1.204 cm</p>
+          <table border="" cols="1" width="80%">
+            <tbody><tr> 
+              <td><img src="./Uncertainties and Error Propagation_files/egabsxcos.gif" border="0" height="113" width="452"></td>
+            </tr>
+            <tr> 
+              <td><img src="./Uncertainties and Error Propagation_files/egstdxcos.gif" border="0" height="83" width="252"></td>
+            </tr>
+          </tbody></table>
+          <p>Hence S = (1.20 ± 0.13) cm (using average deviation 
+approach) 
+            or S = (1.20 ± 0.12) cm (using standard deviation 
+approach.) 
+          </p>
+        </td>
+      </tr>
+    </tbody></table>
+    <p align="left">&nbsp;</p>
+  </center>
+</ul>
+<blockquote> 
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  <h2> <a name="rounding"></a>6. Rounding off answers in regular and 
+scientific 
+    notation.</h2>
+  <p>In the above examples we were careful to round the answers to an 
+appropriate 
+    number of significant figures. The uncertainty should be rounded off 
+to one 
+    or two significant figures. If the leading figure in the uncertainty 
+is a 
+    1, we use two significant figures, otherwise we use one significant 
+figure. 
+    Then the answer should be rounded to match. </p>
+  <table width="80%" border="0">
+    <tbody><tr bgcolor="#CCFFCC"> 
+      <td> 
+        <p><b>Example </b>Round off z = 12.0349 cm and <font face="symbol">D</font>z 
+          = 0.153 cm. </p>
+        <p>Since <font face="symbol">D</font>z begins with a 1, we round 
+off <font face="symbol">D</font>z 
+          to two significant figures: </p>
+        <blockquote> 
+          <p><font face="symbol">D</font>z = 0.15 cm. Hence, round z to 
+have the 
+            same number of decimal places: </p>
+          <p>z = (12.03 ± 0.15) cm.</p>
+        </blockquote>
+      </td>
+    </tr>
+  </tbody></table>
+  <p>&nbsp;</p>
+  <p>When the answer is given in scientific notation, the uncertainty 
+should be 
+    given in scientific notation with the <b>same power of ten</b>. Thus, 
+if </p>
+  <blockquote> 
+    <p> z = 1.43 x <sup><img src="./Uncertainties and Error Propagation_files/10power6.gif" width="26" height="21" align="absbottom"></sup> 
+      s and <font face="symbol">D</font>z = 2 x <img src="./Uncertainties and Error Propagation_files/10power4.gif" width="28" height="21" align="absbottom">s, 
+    </p>
+  </blockquote>
+  <p>we should write our answer as </p>
+  <blockquote> 
+    <p> z = (1.43± 0.02) x <sup><img src="./Uncertainties and Error Propagation_files/10power6.gif" width="26" height="21" align="absbottom"></sup>s. 
+    </p>
+  </blockquote>
+  <p>This notation makes the range of values most easily understood. The 
+following 
+    is technically correct, but is hard to understand at a glance. </p>
+  <blockquote> 
+    <p> z = (1.43 x <sup><img src="./Uncertainties and Error Propagation_files/10power6.gif" width="26" height="21" align="absbottom"></sup> 
+      ± 2 x <img src="./Uncertainties and Error Propagation_files/10power4.gif" width="28" height="21" align="absbottom">) 
+      s. <b><i>Don't write like this!</i></b> </p>
+    <table width="80%" border="0">
+      <tbody><tr bgcolor="#FFFF99"> 
+        <td> 
+          <p><a name="6return"></a><b>Problem:&nbsp; </b>Express the 
+following 
+            results in proper rounded form, x ± <font face="symbol">D</font>x. 
+          </p>
+          <blockquote> 
+            <p> (i) m = 14.34506 grams, <font face="symbol">D</font>m = 
+0.04251 
+              grams. <br>
+              (ii) t = 0.02346 sec, <font face="symbol">D</font>t = 1.623 
+x 10<sup>-3</sup>sec. 
+              <br>
+              (iii) M = 7.35 x <img src="./Uncertainties and Error Propagation_files/10power22.gif" width="34" height="21" align="absbottom"> 
+              kg <font face="symbol">D</font>M = 2.6 x <img src="./Uncertainties and Error Propagation_files/10power20.gif" width="34" height="21" align="absbottom">kg. 
+              <br>
+              (iv) m = 9.11 x <img src="./Uncertainties and Error Propagation_files/10powerm33.gif" width="40" height="21" align="absbottom">kg 
+              <font face="symbol">D</font>m = 2.2345 x <img src="./Uncertainties and Error Propagation_files/10powerm33.gif" width="40" height="21" align="absbottom">kg&nbsp;&nbsp;&nbsp; 
+              <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/rounding.html">Answer</a> </p>
+          </blockquote>
+        </td>
+      </tr>
+    </tbody></table>
+  </blockquote>
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  <h2> <a name="sigfig"></a>7. Significant Figures</h2>
+  <p>The rules for propagation of errors hold true for cases when we are 
+in the 
+    lab, but doing propagation of errors is time consuming. The rules for 
+<b><u>significant 
+    figures</u></b> allow a much quicker method to get results that are 
+approximately 
+    correct even when we have no uncertainty values. </p>
+  <p>A significant figure is any digit 1 to 9 and any zero which is not a 
+place 
+    holder. Thus, in 1.350 there are 4 significant figures since the zero 
+is not 
+    needed to make sense of the number. In a number like 0.00320 there 
+are 3 significant 
+    figures --the first three zeros are just place holders. However the 
+number 
+    1350 is ambiguous. You cannot tell if there are 3 significant figures 
+--the 
+    0 is only used to hold the units place --or if there are 4 
+significant figures 
+    and the zero in the units place was actually measured to be zero. 
+</p>
+  <p>How do we resolve ambiguities that arise with zeros when we need to 
+use zero 
+    as a place holder as well as a significant figure? Suppose we measure 
+a length 
+    to three significant figures as 8000 cm. Written this way we cannot 
+tell if 
+    there are 1, 2, 3, or 4 significant figures. To make the number of 
+significant 
+    figures apparent we use scientific notation, 8 x <img src="./Uncertainties and Error Propagation_files/10power3.gif" width="26" height="21" align="absbottom"> 
+    cm (which has one significant figure), or 8.00 x <img src="./Uncertainties and Error Propagation_files/10power3.gif" width="26" height="21" align="absbottom"> 
+    cm (which has three significant figures), or whatever is correct 
+under the 
+    circumstances. </p>
+  <p>We start then with numbers each with their own number of significant 
+figures 
+    and compute a new quantity. How many significant figures should be in 
+the 
+    final answer? In doing running computations we maintain numbers to 
+many figures, 
+    but we must report the answer only to the proper number of 
+significant figures. 
+  </p>
+  <p>In the case of addition and subtraction we can best explain with an 
+example. 
+    Suppose one object is measured to have a mass of 9.9 gm and a second 
+object 
+    is measured on a different balance to have a mass of 0.3163 gm. What 
+is the 
+    total mass? We write the numbers with question marks at places where 
+we lack 
+    information. Thus 9.9???? gm and 0.3163? gm. Adding them with the 
+decimal 
+    points lined up we see </p>
+  <blockquote> 
+    <p><tt>09.9????</tt> <br>
+      <tt><u> 00.3163?</u></tt> <br>
+      <tt>10.2???? = 10.2 gm.</tt></p>
+  </blockquote>
+  <p>In the case of multiplication or division we can use the same idea 
+of unknown 
+    digits. Thus the product of 3.413? and 2.3? can be written in long 
+hand as 
+  </p>
+  <blockquote> 
+    <p><tt>3.413?</tt> <br>
+      <tt><u>2.3?</u></tt> <br>
+      <tt>&nbsp;&nbsp; ?????</tt> <br>
+      <tt>&nbsp;10239?</tt> <br>
+      <tt><u>&nbsp;6826?</u></tt> <br>
+      <tt>7.8????? = 7.8</tt></p>
+  </blockquote>
+  <p>The short rule for multiplication and division is that the answer 
+will contain 
+    a number of significant figures equal to the number of significant 
+figures 
+    in the entering number having the least number of significant 
+figures. In 
+    the above example 2.3 had 2 significant figures while 3.413 had 4, so 
+the 
+    answer is given to 2 significant figures. </p>
+  <p>It is important to keep these concepts in mind as you use 
+calculators with 
+    8 or 10 digit displays if you are to avoid mistakes in your answers 
+and to 
+    avoid the wrath of physics instructors everywhere.&nbsp; A good 
+procedure 
+    to use is to use use all digits (significant or not) throughout 
+calculations, 
+    and only round off the answers to appropriate "sig fig." </p>
+  <table width="80%" border="0">
+    <tbody><tr bgcolor="#FFFF99"> 
+      <td> 
+        <p><a name="7return"></a><b>Problem</b>:&nbsp; How many 
+significant figures 
+          are there in each of the following?&nbsp;&nbsp;&nbsp; <a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/sigfig.html">Answer</a> 
+        </p>
+        <blockquote> 
+          <p> (i) 0.00042&nbsp;&nbsp; (ii) 0.14700&nbsp;&nbsp; (ii) 4.2 x 
+<sup><img src="./Uncertainties and Error Propagation_files/10power6.gif" width="26" height="21" align="absbottom"></sup>&nbsp;&nbsp; 
+            (iv) -154.090 x <img src="./Uncertainties and Error Propagation_files/10powerm27.gif" width="41" height="21"> 
+          </p>
+        </blockquote>
+      </td>
+    </tr>
+  </tbody></table>
+  <blockquote> 
+    <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a></div>
+  </blockquote>
+  <h2> <a name="problems"></a>8. Problems on Uncertainties and Error 
+Propagation.</h2>
+  <p>Try the following problems to see if you understand the details of 
+this part 
+    . The answers are at the end. </p>
+  <blockquote> 
+    <p> (a) Find the average and the average deviation of the following 
+measurements 
+      of a mass. </p>
+    <blockquote> 
+      <p> 4.32, 4.35, 4.31, 4.36, 4.37, 4.34 grams. </p>
+    </blockquote>
+    <p>(b) Express the following results in proper rounded form, x 
+± <font face="symbol">D</font>x. 
+    </p>
+    <blockquote> 
+      <p> (i) m = 14.34506 grams, <font face="symbol">D</font>m = 0.04251 
+grams. 
+        <br>
+        (ii) t = 0.02346 sec, <font face="symbol">D</font>t = 1.623 x 
+<img src="./Uncertainties and Error Propagation_files/10powerm3.gif" width="33" height="21" align="absbottom">sec. 
+        <br>
+        (iii) M = 7.35 x <img src="./Uncertainties and Error Propagation_files/10power22.gif" width="34" height="21" align="absbottom">kg 
+        <font face="symbol">D</font>M = 2.6 x <img src="./Uncertainties and Error Propagation_files/10power20.gif" width="34" height="21" align="absbottom">kg. 
+        <br>
+        (iv) m = 9.11 x <img src="./Uncertainties and Error Propagation_files/10powerm33.gif" width="40" height="21" align="absbottom">kg 
+        <font face="symbol">D</font>m = 2.2345 x <img src="./Uncertainties and Error Propagation_files/10powerm33.gif" width="40" height="21" align="absbottom">kg 
+      </p>
+    </blockquote>
+    <p>(c) Are the following numbers equal within the expected range of 
+values? 
+    </p>
+    <blockquote> 
+      <p> (i) (3.42 ± 0.04) m/s and 3.48 m/s? <br>
+        (ii) (13.106 ± 0.014) grams and 13.206 grams? <br>
+        (iii) (2.95 ± 0.03) x <img src="./Uncertainties and Error Propagation_files/10power8.gif" width="26" height="21" align="absbottom">m/s 
+        and 3.00 x <img src="./Uncertainties and Error Propagation_files/10power8.gif" width="26" height="21" align="absbottom"> 
+        m/s </p>
+    </blockquote>
+    <p>(d) Calculate z and <font face="symbol">D</font>z for each of the 
+following 
+      cases. </p>
+    <blockquote> 
+      <p> (i) z = (x - 2.5 y + w) for x = (4.72 ± 0.12) m, y = 
+(4.4 ± 
+        0.2) m, w = (15.63 ± 0.16) m. <br>
+        (ii) z = (w x/y) for w = (14.42 ± 0.03) m/<img src="./Uncertainties and Error Propagation_files/ssq.gif" width="18" height="21" align="absbottom">, 
+
+        x = (3.61 ± 0.18) m, y = (650 ± 20) m/s. <br>
+        (iii) z = <img src="./Uncertainties and Error Propagation_files/xcubed.gif" width="20" height="21" align="absbottom">for 
+        x = (3.55 ± 0.15) m. <br>
+        (iv) z = v (xy + w) with v = (0.644 ± 0.004) m, x = (3.42 
+± 
+        0.06) m, y = (5.00 ± 0.12) m, w =&nbsp;&nbsp;&nbsp; (12.13 
+± 
+        0.08)<img src="./Uncertainties and Error Propagation_files/msq.gif" width="26" height="21" align="absbottom">. 
+        <br>
+        (v) z = A sin y for A = (1.602 ± 0.007) m/s, y = (0.774 
+± 
+        0.003) rad. </p>
+    </blockquote>
+    <p>(e) How many significant figures are there in each of the 
+following? </p>
+    <blockquote> 
+      <p> (i) 0.00042&nbsp;&nbsp; (ii) 0.14700&nbsp;&nbsp; (ii) 4.2 x 
+<img src="./Uncertainties and Error Propagation_files/10power6.gif" width="26" height="21" align="absbottom">&nbsp;&nbsp; 
+        (iv) -154.090 x 10<sup>-27</sup> </p>
+    </blockquote>
+    <p>(f) I measure a length with a meter stick which has a least count 
+of 1 
+      mm I measure the length 5 times with&nbsp; results in mm of 123, 
+123, 124, 
+      123, 123 mm. What is the average length and the uncertainty in 
+length? </p>
+  </blockquote>
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="35" width="39"></a></div>
+  <h4> 
+    <hr width="100%">
+    Answers for Section 8:</h4>
+  <p>(a) (4.342 ± 0.018) grams </p>
+  <p>(b)&nbsp; i) (14.34 ± 0.04) 
+grams&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii) 
+    (0.0235 ± 0.0016) sec or (2.35 ± 0.16) x<img src="./Uncertainties and Error Propagation_files/10powerm2.gif" width="34" height="21" align="absbottom"> 
+    sec <br>
+    &nbsp;&nbsp; iii) (7.35 ± 0.03) x <img src="./Uncertainties and Error Propagation_files/10power22.gif" width="34" height="21" align="absbottom">kg&nbsp;&nbsp; 
+    iv) (9.11 ± 0.02) x <img src="./Uncertainties and Error Propagation_files/10powerm31.gif" width="40" height="21" align="absbottom">kg 
+  </p>
+  <p>(c) Yes for (i) and (iii), no for (ii) </p>
+  <p>(d) i) (9.4 ± 0.8) m&nbsp;&nbsp; ii) (0.080 ± 0.007) 
+m/s&nbsp;&nbsp; 
+    iii) (45 ± 6) <img src="./Uncertainties and Error Propagation_files/mcubed.gif" width="25" height="21" align="absbottom">&nbsp;&nbsp; 
+    iv) 18.8 ± 0.6) <img src="./Uncertainties and Error Propagation_files/mcubed.gif" width="25" height="21" align="absbottom">&nbsp;&nbsp; 
+    v) (1.120 ± 0.008 m/s </p>
+  <p>(e) i) 2&nbsp;&nbsp; ii) 5&nbsp;&nbsp; iii) 2&nbsp;&nbsp; iv) 6 </p>
+
+  <p>(f) (123 ± 1) mm (I used the ILE = least count since it is 
+larger 
+    than the average deviation.) <br>
+    &nbsp; </p>
+  <h2> <a name="glossary"></a>9. Glossary of Important Terms</h2>
+  <p>� </p>
+</blockquote>
+<center>
+  <table border="" width="80%">
+    <tbody><tr> 
+      <td>Term</td>
+      <td>Brief Definition</td>
+    </tr>
+    <tr> 
+      <td>Absolute error</td>
+      <td>The actual error in a quantity, having the same units as the 
+quantity. 
+        Thus if&nbsp; <br>
+        c = (2.95 ± 0.07) m/s, the absolute error is 0.07 m/s. See 
+<i>Relative 
+        Error.</i></td>
+    </tr>
+    <tr> 
+      <td>Accuracy</td>
+      <td>How close a measurement is to being correct. For gravitational 
+acceleration 
+        near the earth, g = 9.7 m/s<sup>2</sup> is more accurate than g = 
+9.532706 
+        m/s<sup>2</sup>. See <i>Precision</i>.</td>
+    </tr>
+    <tr> 
+      <td>Average</td>
+      <td>When several measurements of a quantity are made, the sum of 
+the measurements 
+        divided by the number of measurements.</td>
+    </tr>
+    <tr> 
+      <td>Average Deviation</td>
+      <td>The average of the absolute value of the differences between 
+each measurement 
+        and the average. See <i>Standard Deviation</i>.</td>
+    </tr>
+    <tr> 
+      <td>Confidence Level</td>
+      <td>The fraction of measurements that can be expected to lie within 
+a given 
+        range. Thus if m = (15.34 ± 0.18) g, at 67% confidence 
+level, 67% 
+        of the measurements lie within (15.34 - 0.18) g and (15.34 + 
+0.18) g. 
+        If we use 2 deviations (±0.36 here) we have a 95% 
+confidence level.</td>
+    </tr>
+    <tr> 
+      <td>Deviation</td>
+      <td>A measure of range of measurements from the average. Also 
+called <i>error 
+        oruncertainty</i>.</td>
+    </tr>
+    <tr> 
+      <td>Error</td>
+      <td>A measure of range of measurements from the average. Also 
+called <i>deviation 
+        </i>or <i>uncertainty</i>.</td>
+    </tr>
+    <tr> 
+      <td>Estimated Uncertainty</td>
+      <td>An uncertainty estimated by the observer based on his or her 
+knowledge 
+        of the experiment and the equipment. This is in contrast to 
+<i>ILE</i>, 
+        <i>standard deviation</i> or <i>average deviation</i>.</td>
+    </tr>
+    <tr> 
+      <td>Gaussian Distribution</td>
+      <td>The familiar bell-shaped distribution. Simple statistics 
+assumes that 
+        random errors are distributed in this distribution. Also called 
+<i>Normal 
+        Distribution</i>.</td>
+    </tr>
+    <tr> 
+      <td>Independent Variables</td>
+      <td>Changing the value of one variable has no effect on any of the 
+other 
+        variables. <i>Propagation of errors</i> assumes that all 
+variables are 
+        independent.</td>
+    </tr>
+    <tr> 
+      <td>Instrument Limit&nbsp; <br>
+        of Error (ILE)</td>
+      <td>The smallest reading that an observer can make from an 
+instrument. This 
+        is generally smaller than the <i>Least Count</i>.</td>
+    </tr>
+    <tr> 
+      <td>Least Count</td>
+      <td>The size of the smallest division on a scale. Typically the 
+<i>ILE</i> 
+        equals the least count or 1/2 or 1/5 of the least count.</td>
+    </tr>
+    <tr> 
+      <td>Normal Distribution</td>
+      <td>The familiar bell-shaped distribution. Simple statistics 
+assumes that 
+        random errors are distributed in this distribution. Also called 
+<i>Gaussian 
+        Distribution</i>.</td>
+    </tr>
+    <tr> 
+      <td>Precision</td>
+      <td>The number of significant figures in a measurement. For 
+gravitational 
+        acceleration near the earth, g = 9.532706 m/s<sup>2</sup> is more 
+precise 
+        than g = 9.7 m/s<sup>2</sup>. Greater precision does not mean 
+greater 
+        accuracy! See <i>Accuracy</i>.</td>
+    </tr>
+    <tr> 
+      <td>Propagation of Errors</td>
+      <td>Given independent variables each with an uncertainty, the 
+method of 
+        determining an uncertainty in a function of these variables.</td>
+
+    </tr>
+    <tr> 
+      <td>Random Error</td>
+      <td>Deviations from the "true value" can be equally likely to be 
+higher 
+        or lower than the true value. See <i>Systematic Error</i>.</td>
+    </tr>
+    <tr> 
+      <td>Range of Possible <br>
+        True Values</td>
+      <td>Measurements give an average value, &lt;x&gt; and an uncertainty, 
+<font face="symbol">D</font>x. 
+        At the 67% confidence level the range of possible true values is 
+from 
+        &lt;x&gt; - <font face="symbol">D</font>x&nbsp; to &lt;x&gt; + <font face="symbol">D</font>x. 
+        See C<i>onfidence Level </i>.</td>
+    </tr>
+    <tr> 
+      <td>Relative Error</td>
+      <td>The ratio of absolute error to the average, <font face="symbol">D</font>x/x. 
+        This may also be called percentage error or fractional 
+uncertainty. See 
+        <i>Absolute Error</i>.</td>
+    </tr>
+    <tr> 
+      <td>Significant Figures</td>
+      <td>All non-zero digits plus zeros that do not just hold a place 
+before 
+        or after a decimal point.</td>
+    </tr>
+    <tr> 
+      <td>Standard Deviation</td>
+      <td>The statistical measure of uncertainty. See <i>Average 
+Deviation</i>.</td>
+    </tr>
+    <tr> 
+      <td>Standard Error <br>
+        in the Mean</td>
+      <td>An advanced statistical measure of the effect of large numbers 
+of measurements 
+        on the range of values expected for the average (or mean).</td>
+    </tr>
+    <tr> 
+      <td>Systematic Error</td>
+      <td>A situation where all measurements fall above or below the 
+"true value". 
+        Recognizing and correcting systematic errors is very 
+difficult.</td>
+    </tr>
+    <tr> 
+      <td>Uncertainty</td>
+      <td>A measure of range of measurements from the average. Also 
+called <i>deviation 
+        </i>or <i>error</i>.</td>
+    </tr>
+  </tbody></table>
+</center>
+<blockquote>
+  <div align="right"><a href="https://www.geol.lsu.edu/jlorenzo/geophysics/uncertainties/Uncertaintiespart2.html#top"><img src="./Uncertainties and Error Propagation_files/top.gif" alt="Go to top of document." border="0" height="33" width="39"></a> 
+    <hr width="100%">
+  </div>
+  <div align="right">Send any comments or corrections to <a href="mailto:vwlsps@isc.rit.edu">Vern 
+    Lindberg</a>.</div>
+</blockquote>
+
+
+</body></html>

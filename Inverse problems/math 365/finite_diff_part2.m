@@ -1,0 +1,14 @@
+function [y,x] = finite_diff_part2(n)
+h=1/(n-1);
+x=linspace(0,1,n);
+u=ones(n,1);
+l=u;
+u(1)=0;
+l(end)=0;
+l(end-1)=-1;
+d=-(2+h^2)*ones(n,1);
+d(end)=1;
+A=spdiags([l d u],-1:1,n,n);
+b=zeros(n,1);
+b(1)=-1;
+y=A\b;

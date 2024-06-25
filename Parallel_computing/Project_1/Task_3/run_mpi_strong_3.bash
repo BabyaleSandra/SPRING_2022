@@ -1,0 +1,21 @@
+#!/bin/bash
+###
+###
+#SBATCH --time=01:00:00
+#SBATCH -N 3
+#SBATCH -n 64
+#SBATCH --partition=shortq
+#SBATCH --job-name=std_dev
+#SBATCH --output=std_dev.o%j
+
+module load gcc
+module load mpich
+module load slurm
+#source ~/.bashrc
+
+
+echo "nproc,std_dev,elapsed_time" >> task3_strong.csv
+for p in 1 2 4 8 16 32 64 
+do 
+mpirun -np $p ./task_3 $((2**28)) >> task3_strong.csv
+done

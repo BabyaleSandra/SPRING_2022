@@ -1,0 +1,105 @@
+tt, code, pre 
+{ 
+    font-family: Consolas, Monaco, "Courier New", Courier, monospace; 
+}
+
+h1, h2, h3, h4 
+{
+    font-family: "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p
+{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6em;
+    margin-top: -1px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+ul, ol
+{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6em;
+    margin-top: -1px;
+    margin-bottom: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+pre 
+{
+    background: #f3f3f7;
+    border: 1px solid #dedee3;
+    padding: 11px;
+    font-size: 12px;
+    line-height: 1.3em;
+    margin-bottom: 22px;
+    overflow: auto;
+}
+
+.toc
+{
+    font-family: "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.tocsec
+{
+    font-size: 20px;
+    margin-left: 2em;
+}
+
+.tocsub
+{
+    font-size: 18px;
+    margin-left: 4em;
+}
+
+.nav a
+{
+    border: solid 1px #ddd;
+    padding: 6px 9px;
+    font-family: "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    text-decoration: none;
+    background: #f5fff0;
+    margin: 5px 20px 2px 20px;  /* top right bottom left */
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    
+}
+
+.booktitle
+{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.bookcredit
+{
+    font-family: "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+    font-size: 12px;
+}
+
+.caption
+{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
